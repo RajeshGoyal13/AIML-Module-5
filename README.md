@@ -1,32 +1,25 @@
 “Will a customer accept the coupon?” 
 The goal of this project is to use visualizations and probability distributions to distinguish between customers who accepted a driving coupon versus those that did not. The link for Python file used for this is 
-The first step for this assignemnt was to analyze the data. There were 
+The first step for this assignemnt was to understand the data. Looked into the attributes of the data.
+
+<img width="1002" alt="Screenshot 2024-02-26 at 9 39 01 AM" src="https://github.com/RajeshGoyal13/AIML-Module-5/assets/161057282/1d337de9-8533-4616-a23f-4d2a29e672af">
+
+* There were total 26 columns but many of the columns have data as Objects, and there were few columns which has some missing data.
+
 Data columns (total 26 columns):
- #   Column                Non-Null Count  Dtype 
----  ------                --------------  ----- 
- 0   destination           12684 non-null  object
- 1   passanger             12684 non-null  object
- 2   weather               12684 non-null  object
- 3   temperature           12684 non-null  int64 
- 4   time                  12684 non-null  object
- 5   coupon                12684 non-null  object
- 6   expiration            12684 non-null  object
- 7   gender                12684 non-null  object
- 8   age                   12684 non-null  object
- 9   maritalStatus         12684 non-null  object
- 10  has_children          12684 non-null  int64 
- 11  education             12684 non-null  object
- 12  occupation            12684 non-null  object
- 13  income                12684 non-null  object
- 14  car                   108 non-null    object
- 15  Bar                   12577 non-null  object
- 16  CoffeeHouse           12467 non-null  object
- 17  CarryAway             12533 non-null  object
- 18  RestaurantLessThan20  12554 non-null  object
- 19  Restaurant20To50      12495 non-null  object
- 20  toCoupon_GEQ5min      12684 non-null  int64 
- 21  toCoupon_GEQ15min     12684 non-null  int64 
- 22  toCoupon_GEQ25min     12684 non-null  int64 
- 23  direction_same        12684 non-null  int64 
- 24  direction_opp         12684 non-null  int64 
- 25  Y                     12684 non-null  int64 
+
+<img width="459" alt="Screenshot 2024-02-26 at 9 34 29 AM" src="https://github.com/RajeshGoyal13/AIML-Module-5/assets/161057282/142a786e-b3f8-469d-9754-67b29d7807db">
+
+* Also some of the values have range or commas. So replaced the ranges to average value.
+
+Once the data is ready, next step was to analyze the data. 
+
+<img width="850" alt="Screenshot 2024-02-26 at 11 53 47 AM" src="https://github.com/RajeshGoyal13/AIML-Module-5/assets/161057282/77516147-7289-4347-83d8-f6dc7dc5e273">
+
+<img width="850" alt="Screenshot 2024-02-26 at 11 54 20 AM" src="https://github.com/RajeshGoyal13/AIML-Module-5/assets/161057282/4ace3c07-d6e5-4f58-85ca-8346f4940eda">
+
+<img width="850" alt="Screenshot 2024-02-26 at 11 54 48 AM" src="https://github.com/RajeshGoyal13/AIML-Module-5/assets/161057282/9c1b4be9-7fdb-4ea5-a4f4-0e252561f631">
+
+<img width="850" alt="Screenshot 2024-02-26 at 11 55 14 AM" src="https://github.com/RajeshGoyal13/AIML-Module-5/assets/161057282/f2323b78-ce84-498d-ad3d-07a63b2ad18c">
+
+<img width="867" alt="Screenshot 2024-02-26 at 11 55 27 AM" src="https://github.com/RajeshGoyal13/AIML-Module-5/assets/161057282/b46d0915-f117-4be8-ba5a-649a79eff502">
