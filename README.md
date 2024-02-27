@@ -1,4 +1,4 @@
-“Will a customer accept the coupon?” 
+#“Will a customer accept the coupon?” 
 The goal of this project is to use visualizations and probability distributions to distinguish between customers who accepted a driving coupon versus those that did not. The link for Python file used for this is 
 The first step for this assignemnt was to understand the data. Looked into the attributes of the data.
 
