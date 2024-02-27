@@ -45,8 +45,11 @@ Finding for Bar coupons : Looking at the above aceptance rates, we can hypothesi
 + The investigation shows that Male drivers who went alone are going to accept Coffe house coupons more than the Female Drivers.
 + But Male drivers who went with friends are going to accept Coffe house coupons less than the Female Drivers.
 
-+ 
-  <img width="850" alt="Screenshot 2024-02-26 at 11 53 47 AM" src="https://github.com/RajeshGoyal13/AIML-Module-5/assets/161057282/77516147-7289-4347-83d8-f6dc7dc5e273">
+# Final findings across whole data frame
++ Histogram of Coupon Accepted without/with Passengers shows that drivers going alone accept the coupons more than the ones who goes with kids or partners.
+  
+<img width="850" alt="Screenshot 2024-02-26 at 11 53 47 AM" src="https://github.com/RajeshGoyal13/AIML-Module-5/assets/161057282/77516147-7289-4347-83d8-f6dc7dc5e273">
++ Histogram of Coupons accepted based on Marital Status across various outlets shows that drivers who are single or are married  accept the coupons more than the ones who are widowed or divorced.
 
 <img width="850" alt="Screenshot 2024-02-26 at 11 54 20 AM" src="https://github.com/RajeshGoyal13/AIML-Module-5/assets/161057282/4ace3c07-d6e5-4f58-85ca-8346f4940eda">
 
