@@ -15,8 +15,9 @@ Data columns (total 26 columns):
 
 
 
-Also some of the values have range or commas. It was important to make the data readable and understandable. So , approach taken was to replace the ranges to average value e.g. 1 to 3 range was replaced with 2, so that data can be simplified. Also changed the data into numeric for most of the attributes.
-
+* Also some of the values have range or commas. It was important to make the data readable and understandable. So , approach taken was to replace the ranges to average value e.g. 1 to 3 range was replaced with 2, so that data can be simplified. Also changed the data into numeric for most of the attributes.
+* There is lots of data missing for Car. So going to ingore that attribute that.
+* There is some data missing under Bar, Coffee house, Carry Away, so going to drop that null data while doing the analysis on these.
 ## Analyze the data:
 
  First created the bar chart to visulaize how the coupons are distributed.Below chart shows, maximum Coffe House has the coupons data and then Restaurant <20.
@@ -49,12 +50,24 @@ Finding for Bar coupons : Looking at the above aceptance rates, we can hypothesi
 + Histogram of Coupon Accepted without/with Passengers shows that drivers going alone accept the coupons more than the ones who goes with kids or partners.
   
 <img width="850" alt="Screenshot 2024-02-26 at 11 53 47 AM" src="https://github.com/RajeshGoyal13/AIML-Module-5/assets/161057282/77516147-7289-4347-83d8-f6dc7dc5e273">
+
 + Histogram of Coupons accepted based on Marital Status across various outlets shows that drivers who are single or are married  accept the coupons more than the ones who are widowed or divorced.
 
 <img width="850" alt="Screenshot 2024-02-26 at 11 54 20 AM" src="https://github.com/RajeshGoyal13/AIML-Module-5/assets/161057282/4ace3c07-d6e5-4f58-85ca-8346f4940eda">
 
++ Histogram of Coupons accepted based on weather across various outlets shows that drivers on the sunny day have the more probability to accept the coupons than the rainy or snowy day.
+  
 <img width="850" alt="Screenshot 2024-02-26 at 11 54 48 AM" src="https://github.com/RajeshGoyal13/AIML-Module-5/assets/161057282/9c1b4be9-7fdb-4ea5-a4f4-0e252561f631">
+
++ Histogram of Coupons accepted based on gender across various outlets shows in Bar, male drivers accept coupons more than female drivers while in other female drivers accept marginally more than male drivers.
 
 <img width="850" alt="Screenshot 2024-02-26 at 11 55 14 AM" src="https://github.com/RajeshGoyal13/AIML-Module-5/assets/161057282/f2323b78-ce84-498d-ad3d-07a63b2ad18c">
 
++ Boxplot of Coupons accepted based on age across various outlets shows that aged drivers accept more coupons while they do takeaway or carry out. In the age group below 30, they accept across all almost at the same rate.
+
 <img width="867" alt="Screenshot 2024-02-26 at 11 55 27 AM" src="https://github.com/RajeshGoyal13/AIML-Module-5/assets/161057282/b46d0915-f117-4be8-ba5a-649a79eff502">
+
+# Recommendations:
+
+1. Passangers with Kids or partners accept coupons less as compared to drivers lone or with friends. So, there should be some Kids friendly or couple friendly coupons so that drivers in that category can accept more coupons.
+2. Car data has lots of null data, so need to get better data for further analysis.
