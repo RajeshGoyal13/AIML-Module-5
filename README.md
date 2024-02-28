@@ -38,12 +38,12 @@ Data columns (total 26 columns):
 
 Finding for Bar coupons : Looking at the above aceptance rates, we can hypothesize that the drivers who go to bars more than once a month and  that were not a kid, and were not widowed are more likely to accept the bar coupon as compared to those drivers who go to bars more than once a month and are under the age of 30.
 
-### Investigating the Bar Coupons (Similar to Bar coupons, investigated the Coffee House coupon group.)
-+ To investigate the data only related to Bar coupons, created a new data frame. The data looked like:
+### Investigating the Coffee House Coupons (Similar to Bar coupons, investigated the Coffee House coupon group.)
++ To investigate the data only related to Coffee House coupons, created a new data frame. The data looked like:
   
 <img width="1001" alt="Screenshot 2024-02-27 at 6 05 38 PM" src="https://github.com/RajeshGoyal13/AIML-Module-5/assets/161057282/ce028cfa-4f1e-4679-9816-2e38ae329506">
 
-+ The investigation shows that Male drivers who went alone are going to accept Coffe house coupons more than the Female Drivers.
++ The investigation shows that Male drivers who went alone are going to accept Coffee house coupons more than the Female Drivers.
 + But Male drivers who went with friends are going to accept Coffe house coupons less than the Female Drivers.
 
 # Final findings across whole data frame
